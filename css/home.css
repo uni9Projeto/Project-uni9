@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+.first-content {
+    margin-top: 4%;
+    text-indent: 7%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+    transition: all 0.3s ease-out;
+}
+
+.card:hover {
+    transform: translate(-5px);
+    cursor: pointer;
+}
+
+.card p {
+    color: #a3a5ae;
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+    height: 30vh;
+}
+
+.blue {
+    border-left: 3px solid #4895ff;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="icon" href="img/logo1.png">
+    <title>Contato</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="nav-bar">
+            <input type="checkbox" id="check">
+            <label for="check" class="btn-menu">
+                <i class="fa fa-bars"></i>
+            </label>
+
+            <label class="logo">HIMAWARI</label>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="cadastro.php">CADASTRO</a></li>
+                <li><a href="login.php">LOGIN</a></li>
+                <li><a href="#">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="row">
+            <h1>contato</h1>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <input type="hidden" name="accessKey" value="7ec92db5-9e7b-434e-967c-cf2dd6a03335">
+
+                <label>Nome*</label>
+                <input type="text" name="name" id="name" placeholder="Example" required minlength="3" maxlength="12">
+
+                <label>E-mail*</label>
+                <input type="email" name="email" id="email" placeholder="example@gmail.com" required minlength="6"
+                    maxlength="30">
+
+                <label>Mensagem*</label>
+                <textarea name="message" id="mensagem" placeholder="Digite aqui a sua mensagem" required
+                    maxlength="250" minlength="4"></textarea>
+
+                <input type="hidden" name="redirectTo" value="contato.html">
+                <button type="submit" class="enviar">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+		<div class="footer-content">
+			<h3>HIMAWARI</h3>
+			<p>A <i> HIMAWARI </i> é um grupo que gerencia o estoque e funcinários
+				de sua com maior precisão no dia a dia de trabalho.</p>
+			<ul class="sociais">
+				<li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+			</ul>
+		</div>
+		<div class="footer-bottom">
+			<p>Copyright &copy;2022 HIMAWARI. Designed by <span>Universitários da Instituição Uni9</span></p>
+		</div>
+	</footer>
+</body>
+
+</html>
